@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Button from './components/Button.js'
+import Form from './components/Form.js'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <div className="wrapper">
           <Routes>
-            <Route exact path="/" Component={Button} />
+            <Route exact path="/" Component={Form} />
           </Routes>
         </div>
       </div>

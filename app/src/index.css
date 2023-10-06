@@ -4,12 +4,23 @@ body {
   background:linear-gradient(#8EC5FC, #E0C3FC);
   min-height: 100vh;
   display: flex;
-  font-weight: 400;
+  /*font-weight: 400;*/
   font-family: 'Fira Sans', sans-serif;
 }
 /*more to come */
 
 h1 {
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  padding: 200px;
+  width: 100%;
 }
+
+/*
+.button {
+  border: none;
+  color: aliceblue;
+  text-align: center;
+  font-size: 16px;
+}*/
