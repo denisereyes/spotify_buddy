@@ -4,23 +4,30 @@ body {
   background:linear-gradient(#8EC5FC, #E0C3FC);
   min-height: 100vh;
   display: flex;
-  /*font-weight: 400;*/
   font-family: 'Fira Sans', sans-serif;
 }
-/*more to come */
 
 h1 {
   font-weight: 700;
   font-family: 'Fira Sans', sans-serif;
   text-align: center;
-  padding: 200px;
+  padding: 20px;
   width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
 }
 
-/*
-.button {
+.btn-primary {
   border: none;
-  color: aliceblue;
+  border-radius: 12px; /*makes button round*/
+  color: #8EC5FC;
   text-align: center;
-  font-size: 16px;
-}*/
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 25px; /*font-size changes size of button*/
+  padding: 10px;
+  cursor: pointer; /*changed cursor to click cursor*/
+  margin-left: 400px; /*could be better styled*/
+}

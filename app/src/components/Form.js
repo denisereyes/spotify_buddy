@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 class Form extends React.Component {
 
 
@@ -13,8 +12,13 @@ class Form extends React.Component {
         return (
             <div className="container">
                 <h1>Find Out Your Spotify's Top 5 <br/>
-                    Of The Month</h1>
-                    
+                    Of The Month!</h1>
+                    <button className='btn-primary' type="button">
+                        {
+                            <span>get started</span>
+                        }
+                    </button>
+                
             </div>
 
         );
