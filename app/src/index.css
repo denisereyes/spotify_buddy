@@ -18,11 +18,13 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
+  color: #FFFFFF;
 }
 
 .btn-primary {
   border: none;
   border-radius: 12px; /*makes button round*/
+  background-color: #FFFFFF;
   color: #8EC5FC;
   text-align: center;
   font-family: 'Fira Sans', sans-serif;

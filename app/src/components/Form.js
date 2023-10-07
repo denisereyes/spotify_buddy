@@ -15,7 +15,7 @@ class Form extends React.Component {
                     Of The Month!</h1>
                     <button className='btn-primary' type="button">
                         {
-                            <span>get started</span>
+                            <span>Get Started</span>
                         }
                     </button>
                 
